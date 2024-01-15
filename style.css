@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: cadetblue;
+    text-align: center;
+    font-size: larger;
+}
+h1{
+    margin: 30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80vh;
+    gap: 1vh;
+}
+    
+.box{
+    width: 20vh;
+    height: 20vh;
+    border: 2px;
+    border-color: black;
+    border-radius: 15px;
+    font-size: 15vh;
+    color: #FFC75F;
+    background-color: white;
+}
+.reset-btn{
+    margin: 45px;
+    font-size: larger;
+    color: rgb(18, 19, 18);
+    font-style: italic;
+    background-color: burlywood;
+}
+.win-btns{
+    background-color :darkcyan;
+    color: black;
+}
